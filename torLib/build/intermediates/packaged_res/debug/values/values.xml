@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="piece_size_entries">
+        <item>Auto</item>
+        <item>16 KiB</item>
+        <item>32 KiB</item>
+        <item>64 KiB</item>
+        <item>128 KiB</item>
+        <item>256 KiB</item>
+        <item>512 KiB</item>
+        <item>1 MiB</item>
+        <item>2 MiB</item>
+        <item>4 MiB</item>
+        <item>8 MiB</item>
+        <item>16 MiB</item>
+        <item>32 MiB</item>
+    </string-array>
+    <string-array name="pref_enc_mode_entries">
+        <item>Prefer encryption</item>
+        <item>Require encryption</item>
+        <item>Disable encryption</item>
+    </string-array>
+    <string-array name="pref_enc_mode_entries_value" translatable="false">
+        <item>@string/pref_enc_mode_prefer_value</item>
+        <item>@string/pref_enc_mode_require_value</item>
+        <item>@string/pref_enc_mode_disable_value</item>
+    </string-array>
+    <string-array name="pref_feed_keep_items_time_entries">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>4 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>1 month</item>
+        <item>2 months</item>
+        <item>3 months</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_feed_keep_items_time_entry_values" translatable="false">
+        <item>86400000</item>
+        <item>172800000</item>
+        <item>345600000</item>
+        <item>604800000</item>
+        <item>1209600000</item>
+        <item>2592000000</item>
+        <item>5270400000</item>
+        <item>7862400000</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pref_feed_refresh_intervals_entries">
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+    </string-array>
+    <string-array name="pref_feed_refresh_intervals_values" translatable="false">
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>21600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+    <string-array name="pref_function_button_entries">
+        <item>Pause/resume torrents</item>
+        <item>Add torrent</item>
+    </string-array>
+    <string-array name="pref_function_button_entries_value" translatable="false">
+        <item>@string/pref_function_button_pause_value</item>
+        <item>@string/pref_function_button_add_value</item>
+    </string-array>
+    <string-array name="pref_proxy_type_entries">
+        <item>(None)</item>
+        <item>SOCKS4</item>
+        <item>SOCKS5</item>
+        <item>HTTP</item>
+    </string-array>
+    <string-array name="pref_proxy_type_entries_value" translatable="false">
+        <item>@string/pref_proxy_type_none_value</item>
+        <item>@string/pref_proxy_type_socks4_value</item>
+        <item>@string/pref_proxy_type_socks5_value</item>
+        <item>@string/pref_proxy_type_http_value</item>
+    </string-array>
+    <string-array name="pref_theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="pref_theme_entries_value" translatable="false">
+        <item>@string/pref_theme_light_value</item>
+        <item>@string/pref_theme_dark_value</item>
+        <item>@string/pref_theme_black_value</item>
+    </string-array>
+    <string-array name="sort_direction_values" translatable="false">
+        <item>asc</item>
+        <item>desc</item>
+    </string-array>
+    <string-array name="sort_torrent_by">
+        <item>Without sorting</item>
+        <item>Name</item>
+        <item>Date added</item>
+        <item>Size</item>
+        <item>Progress</item>
+        <item>ETA</item>
+        <item>Peers</item>
+    </string-array>
+    <string-array name="sort_torrent_values" translatable="false">
+        <item>none</item>
+        <item>name</item>
+        <item>dateAdded</item>
+        <item>size</item>
+        <item>progress</item>
+        <item>ETA</item>
+        <item>peers</item>
+    </string-array>
+    <attr format="boolean" name="vc_autoMirrored"/>
+    <attr format="string" name="vc_pathData"/>
+    <attr format="color" name="vc_tint"/>
+    <attr format="enum" name="vc_tintMode">
+        
+        <enum name="src_over" value="3"/>
+        
+        <enum name="src_in" value="5"/>
+        
+        <enum name="src_atop" value="9"/>
+        
+        <enum name="multiply" value="14"/>
+        
+        <enum name="screen" value="15"/>
+        
+        <enum name="add" value="16"/>
+    </attr>
+    <bool name="isLargeScreenDevice">false</bool>
+    <bool name="isTwoPane">false</bool>
+    <color name="accent">#FF4081</color>
+    <color name="accent_dark">#C2185B</color>
+    <color name="accent_light">#FCE4EC</color>
+    <color name="action_mode">#757575</color>
+    <color name="action_mode_dark">#616161</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_blank">#EDEDED</color>
+    <color name="background_blank_dark">#424242</color>
+    <color name="background_dark">#303030</color>
+    <color name="background_dialog">#FFFFFF</color>
+    <color name="background_dialog_dark">#424242</color>
+    <color name="black">#000000</color>
+    <color name="cur_open_torrent_indicator">#FCE4EC</color>
+    <color name="cur_open_torrent_indicator_dark">#51353E</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="divider_dark">#424242</color>
+    <color name="error">#D50000</color>
+    <color name="fab_menu_label_normal">#333333</color>
+    <color name="fab_menu_shadow">#66000000</color>
+    <color name="file_manager_highlight">@color/accent</color>
+    <color name="gray">#E0E0E0</color>
+    <color name="gray_dark">#727272</color>
+    <color name="gray_light">#EEEEEE</color>
+    <color name="ic_launcher_background">#5CCA4A</color>
+    <color name="ok">#00C853</color>
+    <color name="pieces_cell">#BDBDBD</color>
+    <color name="primary">#673AB7</color>
+    <color name="primary_dark">#512DA8</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="selected_item">#ECECEC</color>
+    <color name="selected_item_dark">#7F7F7F</color>
+    <color name="text_primary">#DE000000</color>
+    <color name="text_primary_inverse">#FFFFFF</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <color name="text_secondary_inverse">#9E9E9E</color>
+    <dimen name="activity_detail_vertical_margin">88dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="button_press_elevation">4dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="min_width_dialog">300dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="tool_bar_top_padding">0dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <item name="statusBarKitKat" type="id"/>
+    <integer name="anim_duration">300</integer>
+    <string name="about">About</string>
+    <string name="about_changelog">Changelog</string>
+    <string name="about_changelog_link" translatable="false">https://gitlab.com/proninyaroslav/libretorrent/blob/master/NEWS</string>
+    <string name="about_description">LibreTorrent is a Free as in Freedom torrent client for Android 4+, based on libtorrent (Java wrapper frostwire-jlibtorrent https://github.com/frostwire/frostwire-jlibtorrent ) lib.\n\nLibreTorrent is free software, released under the terms of the GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
+    <string name="about_title">About LibreTorrent</string>
+    <string name="about_website">More information and also to help the project: https://gitlab.com/proninyaroslav/libretorrent</string>
+    <string name="add">Add</string>
+    <string name="add_feed_channel">Add channel</string>
+    <string name="add_link">Add link</string>
+    <string name="add_torrent_title">Add torrent</string>
+    <string name="add_trackers">Add trackers</string>
+    <string name="app_error_occurred">The app error occurred. You can send the report to developers</string>
+    <string name="app_name" translatable="false">ruiyiTorrent</string>
+    <string name="app_running_in_the_background">LibreTorrent running in the background</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_priority">Priority</string>
+    <string name="change_priority_high">High</string>
+    <string name="change_priority_low">Low (ignore file)</string>
+    <string name="change_priority_normal">Normal</string>
+    <string name="comments">Comments</string>
+    <string name="copy_link">Copy link</string>
+    <string name="create_torrent">Create torrent</string>
+    <string name="create_torrent_options">Options</string>
+    <string name="decode_torrent_default_message">Please wait…</string>
+    <string name="decode_torrent_downloading_torrent_message">Downloading torrent file. Please wait…</string>
+    <string name="decode_torrent_fetch_magnet_message">Fetching data from magnet link. Please wait…</string>
+    <string name="decode_torrent_progress_title">Loading</string>
+    <string name="def">Default</string>
+    <string name="delete">Delete</string>
+    <string name="delete_selected_channel">Delete the selected channel?</string>
+    <string name="delete_selected_channels">Delete the selected channels?</string>
+    <string name="delete_selected_torrent">Delete the selected torrent? This operation cannot be undone</string>
+    <string name="delete_selected_torrents">Delete the selected torrents? This operation cannot be undone</string>
+    <string name="delete_selected_tracker">Delete the selected tracker?</string>
+    <string name="delete_selected_trackers">Delete the selected trackers?</string>
+    <string name="delete_torrent_with_downloaded_files">Delete with downloaded files</string>
+    <string name="deleting">Deleting</string>
+    <string name="dialog_add_link_title">Enter the infohash value, magnet link, or HTTP/HTTPS link</string>
+    <string name="dialog_add_trackers">(One per line)</string>
+    <string name="dialog_change_priority_title">Change priority</string>
+    <string name="dialog_new_folder_title">New folder</string>
+    <string name="dir_chooser_title">Folder selection</string>
+    <string formatted="false" name="download_counter_ETA_template">%1$s/%2$s \u2022 %3$d%% %4$s</string>
+    <string formatted="false" name="download_counter_template">%1$s/%2$s (%3$d%%)</string>
+    <string name="download_speed">Download</string>
+    <string formatted="false" name="download_upload_speed_template">\u2193 %1$s/s | \u2191 %2$s/s</string>
+    <string formatted="false" name="downloading_torrent_notify_template">%1$d%% \u2022 %2$s \u2022 \u2193 %3$s/s \u2022 %4$s</string>
+    <string name="edit">Edit</string>
+    <string name="edit_feed_channel">Edit channel</string>
+    <string name="elapsed_time_format_d_h_mm">%1$d d. %2$d h. %3$d m</string>
+    <string name="elapsed_time_format_h_mm_ss">%1$d h. %2$d m. %3$d s</string>
+    <string name="elapsed_time_format_mm_ss">%1$d m. %2$d s</string>
+    <string name="elapsed_time_format_ss">%1$d s</string>
+    <string name="enable_sequential_download">Enable sequential download</string>
+    <string name="error">Error</string>
+    <string name="error_add_torrent">Failed to add the torrent</string>
+    <string name="error_cannot_add_channel">Cannot add channel</string>
+    <string name="error_comment_prompt">You can add extra information and comments here:</string>
+    <string name="error_create_torrent">Unable to create torrent</string>
+    <string name="error_decode_torrent">Failed decoding torrent file. Maybe the file is corrupted or has an incorrect format</string>
+    <string name="error_dialog_new_folder">Unable to create a new folder</string>
+    <string name="error_empty_link">Please enter link</string>
+    <string name="error_export_feeds">Failed to export channels</string>
+    <string name="error_fetch_link">Failed to fetch data from the link</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_file_exists">File already exists</string>
+    <string name="error_file_not_found_add_torrent">Failed to add the torrent. Maybe the torrent file is moved, or deleted</string>
+    <string name="error_free_space">There is not enough free space on the selected path to download the selected files</string>
+    <string name="error_import_feeds">Failed to import channels</string>
+    <string name="error_invalid_link">Invalid link</string>
+    <string name="error_invalid_link_or_path">Invalid link or path to the torrent</string>
+    <string name="error_io_add_torrent">Unable to add the torrent. I/O error</string>
+    <string name="error_io_torrent">Error reading the torrent file</string>
+    <string name="error_no_files_selected">No files selected</string>
+    <string name="error_open_dir">Unable to open the folder</string>
+    <string name="error_open_torrent_file">Unable to open the torrent file</string>
+    <string name="error_perm_write_in_folder">Unable to use selected folder to download. Please select another folder</string>
+    <string name="error_save_torrent_file">Failed to save a torrent file</string>
+    <string name="exit_torrent">exit</string>
+    <string name="export_feed_channels">Export channels</string>
+    <string formatted="false" name="export_feeds_successfully">Channels saved successfully: %1$s</string>
+    <string formatted="false" name="external_storage_name">External storage %1$d</string>
+    <string name="feed">RSS</string>
+    <string name="feed_auto_download">Download new torrents automatically</string>
+    <string name="feed_channel_list_empty">No channels</string>
+    <string name="feed_filter_prompt">Enter the words (separated by \"|\"), one of which must be in the name or enter regular expression. Torrents will be added only if this filter matches the torrent name</string>
+    <string name="feed_item_list_empty">No articles</string>
+    <string name="feed_item_open_article_url">Open article</string>
+    <string name="feed_items">Articles</string>
+    <string name="feed_last_update_never">never</string>
+    <string formatted="false" name="feed_last_update_template">Updated: %1$s</string>
+    <string name="feed_name">Name (optional)</string>
+    <string name="feed_use_regex">Use regular expression</string>
+    <string name="feeds_file_selection_dialog_title">Select a file with channels</string>
+    <string name="file_chooser_title">File selection</string>
+    <string formatted="false" name="file_downloading_status_template">%1$s \u2022 %2$s/%3$s \u2022 %4$d%% \u2022\nAvailability: %5$s</string>
+    <string name="file_name">File name</string>
+    <string name="file_name_is_empty">File name cannot be empty</string>
+    <string name="file_or_folder_for_seeding">File or folder for seeding</string>
+    <string name="file_or_folder_not_found">Selected file or folder not found</string>
+    <string name="file_priority_high">High</string>
+    <string name="file_priority_low">Ignore</string>
+    <string name="file_priority_mixed">Mixed</string>
+    <string name="file_priority_normal">Normal</string>
+    <string formatted="false" name="file_status_template">%1$s \u2022 %2$s</string>
+    <string formatted="false" name="files_size">Selected %1$s out of %2$s</string>
+    <string name="filter">Filter</string>
+    <string name="folder_is_empty">Selected folder is empty or all files are excluded by filter</string>
+    <string name="folder_to_save_not_found">Selected folder to save not found</string>
+    <string name="force_announce_torrent">Force announce</string>
+    <string name="force_recheck_torrent">Force recheck</string>
+    <string name="foreground_notification">Foreground notification</string>
+    <string formatted="false" name="free_space">%1$s free</string>
+    <string name="home_directory">Home</string>
+    <string name="import_feed_channels">Import channels</string>
+    <string formatted="false" name="import_feeds_successfully">Channels imported successfully</string>
+    <string name="install">Install</string>
+    <string name="internal_storage_name">Internal storage</string>
+    <string formatted="false" name="invalid_url">Invalid URL: %1$s</string>
+    <string name="ip_filter_add_error">Failed to add IP filter. Maybe file is corrupted or has an incorrect format</string>
+    <string name="ip_filter_add_success">IP filter added successfully</string>
+    <string name="link">Link</string>
+    <string name="link_copied_to_clipboard">Link copied to clipboard</string>
+    <string name="main_empty_torrent_list">No torrents</string>
+    <string name="mark_as_read">Mark as read</string>
+    <string name="more_details">More details</string>
+    <string name="network_offline">Network status: Offline</string>
+    <string name="network_online">Network status: Online</string>
+    <string name="no">No</string>
+    <string name="not_available">N/A</string>
+    <string name="ok">OK</string>
+    <string name="open_file">Open file</string>
+    <string name="open_using">Open using</string>
+    <string name="option_optimize_alignment">Optimize alignment</string>
+    <string name="option_private_torrent">Private torrent</string>
+    <string name="option_start_seeding">Start seeding</string>
+    <string name="optional_hint">(optional)</string>
+    <string formatted="false" name="other_torrent_notify_template">%1$s \u2022 %2$s</string>
+    <string name="path_pause" translatable="false">M11,10 L17,10 17,26 11,26 M20,10 L26,10 26,26 20,26</string>
+    <string name="path_play" translatable="false">M11,10 L18,13.74 18,22.28 11,26 M18,13.74 L26,18 26,18 18,22.28</string>
+    <string name="pause_torrent">Pause</string>
+    <string formatted="false" name="peer_client">Client: %1$s</string>
+    <string formatted="false" name="peer_connection_type">Connection: %1$s</string>
+    <string name="peer_connection_type_bittorrent">BT</string>
+    <string name="peer_connection_type_utp">μTP</string>
+    <string name="peer_connection_type_web">Web</string>
+    <string name="peer_list_empty">This torrent has not connected to any peers yet</string>
+    <string formatted="false" name="peer_port">Port: %1$d</string>
+    <string formatted="false" name="peer_relevance">Relevance: %1$.1f</string>
+    <string formatted="false" name="peer_total_download_upload">\u2193 %1$s \u2022 \u2191 %2$s</string>
+    <string formatted="false" name="peers_template">%1$d/%2$d</string>
+    <string name="perm_denied_title">Permission denied</string>
+    <string name="perm_denied_warning">Without this permission app can\'t save torrent files in memory. The app will not work properly. Are you sure you want to deny this permission?</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="piece_map">Pieces map</string>
+    <string name="piece_size">Piece size</string>
+    <string name="pref_auto_manage_summary">The torrent may be resumed or paused automatically at any point. Enabling this option may slow down the pause/resume</string>
+    <string name="pref_auto_manage_title">Auto manage</string>
+    <string name="pref_autostart_summary">Run the app after start device</string>
+    <string name="pref_autostart_title">Autostart</string>
+    <string formatted="false" name="pref_battery_control_summary">All torrents will be paused if the battery level goes below %1$d%%. Limit doesn\'t apply at the time of charging</string>
+    <string name="pref_battery_control_title">Battery control</string>
+    <string name="pref_cpu_do_not_sleep_summary">Enabling this will increase the battery usage. Use this option if the download speed reduces when screen turns off</string>
+    <string name="pref_cpu_do_not_sleep_title">Keep CPU awake</string>
+    <string formatted="false" name="pref_custom_battery_control_dialog_summary">Setting a custom battery percentage for the application to watch for will have a negative impact on battery life while downloads are occurring. Are you sure you want to enable this?</string>
+    <string formatted="false" name="pref_custom_battery_control_summary">Set a custom percentage to pause downloads at if the battery drops below the given threshold. Enabling this will ignore the default %1$d%% threshold</string>
+    <string name="pref_custom_battery_control_title">Custom battery percentage</string>
+    <string name="pref_custom_battery_control_value_title">Battery control percentage</string>
+    <string name="pref_dir_to_watch_title">Directory to watch</string>
+    <string name="pref_download_and_upload_only_when_charging_summary">If enabled, torrents will download/upload only when charging. All torrents will pause when not connected to charger</string>
+    <string name="pref_download_and_upload_only_when_charging_title">Download and upload only when charging</string>
+    <string name="pref_enable_dht_summary">It allows BitTorrent-clients to find each other without the use of tracker</string>
+    <string name="pref_enable_dht_title">Enable DHT</string>
+    <string name="pref_enable_ip_filtering_summary">Using IP filtering increases memory usage. Depending on the file size, the filter may take some time to be applied at startup</string>
+    <string name="pref_enable_ip_filtering_title">Enable IP filtering</string>
+    <string name="pref_enable_lsd_summary">It\'s designed to support the discovery of local BitTorrent peers, aiming to minimize the traffic</string>
+    <string name="pref_enable_lsd_title">Enable LSD</string>
+    <string name="pref_enable_natpmp_title">Enable NAT-PMP</string>
+    <string name="pref_enable_scheduling_shutdown_summary">Shutdown app at the specified time</string>
+    <string name="pref_enable_scheduling_shutdown_title">Shutdown time</string>
+    <string name="pref_enable_scheduling_start_summary">Start app at the specified time. Torrents will run according to their state before the last shutdown</string>
+    <string name="pref_enable_scheduling_start_title">Start time</string>
+    <string name="pref_enable_upnp_title">Enable UPnP</string>
+    <string name="pref_enable_utp_summary">It\'s intended to mitigate poor latency and other congestion control issues found in conventional BitTorrent over TCP, while providing reliable, ordered delivery</string>
+    <string name="pref_enable_utp_title">Enable μTP</string>
+    <string name="pref_enc_in_connections_title">Incoming connections</string>
+    <string name="pref_enc_mode_disable_value" translatable="false">2</string>
+    <string name="pref_enc_mode_prefer_value" translatable="false">0</string>
+    <string name="pref_enc_mode_require_value" translatable="false">1</string>
+    <string name="pref_enc_mode_title">Encryption mode</string>
+    <string name="pref_enc_out_connections_title">Outgoing connections</string>
+    <string name="pref_encryption_category">Encryption</string>
+    <string name="pref_feed_auto_refresh_summary">Periodically refresh channels in the background</string>
+    <string name="pref_feed_auto_refresh_title">Auto refresh channels</string>
+    <string name="pref_feed_auto_refresh_wifi_only_title">Wi-Fi only</string>
+    <string name="pref_feed_keep_items_time_title">Keep articles</string>
+    <string name="pref_feed_refresh_interval_title">Refresh interval</string>
+    <string name="pref_feed_start_torrents_summary">Run torrents after adding</string>
+    <string name="pref_feed_start_torrents_title">Run torrents</string>
+    <string name="pref_force_proxy_title">Disable connections not supported by proxies</string>
+    <string name="pref_foreground_notification_category">Foreground notification</string>
+    <string name="pref_function_button_add_value" translatable="false">1</string>
+    <string name="pref_function_button_pause_value" translatable="false">0</string>
+    <string name="pref_function_button_title">Function button</string>
+    <string name="pref_header_appearance">Appearance</string>
+    <string name="pref_header_behavior">Behavior</string>
+    <string name="pref_header_feed">RSS</string>
+    <string name="pref_header_limitations">Limitations</string>
+    <string name="pref_header_network">Network</string>
+    <string name="pref_header_scheduling">Scheduling</string>
+    <string name="pref_header_storage">Storage</string>
+    <string name="pref_ip_filtering_category">IP filtering</string>
+    <string name="pref_ip_filtering_file_title">Path to filter file (.dat, .p2p)</string>
+    <string name="pref_keep_alive_summary">If enabled, the application will remain running in the background. Shutdown when downloads complete is still respected</string>
+    <string name="pref_keep_alive_title">Keep alive</string>
+    <string name="pref_key_apply_proxy" translatable="false">pref_key_apply_proxy</string>
+    <string name="pref_key_auto_manage" translatable="false">pref_key_auto_manage</string>
+    <string name="pref_key_autostart" translatable="false">pref_key_autostart</string>
+    <string name="pref_key_battery_control" translatable="false">pref_key_battery_control</string>
+    <string name="pref_key_cpu_do_not_sleep" translatable="false">pref_key_cpu_do_not_sleep</string>
+    <string name="pref_key_custom_battery_control" translatable="false">pref_key_custom_battery_control</string>
+    <string name="pref_key_custom_battery_control_value" translatable="false">pref_key_custom_battery_control_value</string>
+    <string name="pref_key_dir_to_watch" translatable="false">pref_key_dir_to_watch</string>
+    <string name="pref_key_download_and_upload_only_when_charging" translatable="false">pref_key_download_and_upload_only_when_charging</string>
+    <string name="pref_key_enable_dht" translatable="false">pref_key_enable_dht</string>
+    <string name="pref_key_enable_ip_filtering" translatable="false">pref_key_enable_ip_filtering</string>
+    <string name="pref_key_enable_lsd" translatable="false">pref_key_enable_lsd</string>
+    <string name="pref_key_enable_natpmp" translatable="false">pref_key_enable_natpmp</string>
+    <string name="pref_key_enable_scheduling_shutdown" translatable="false">pref_key_enable_scheduling_stop</string>
+    <string name="pref_key_enable_scheduling_start" translatable="false">pref_key_enable_scheduling_start</string>
+    <string name="pref_key_enable_upnp" translatable="false">pref_key_enable_upnp</string>
+    <string name="pref_key_enable_utp" translatable="false">pref_key_enable_utp</string>
+    <string name="pref_key_enc_in_connections" translatable="false">pref_key_enc_in_connections</string>
+    <string name="pref_key_enc_mode" translatable="false">pref_key_enc_mode</string>
+    <string name="pref_key_enc_out_connections" translatable="false">pref_key_enc_out_connections</string>
+    <string name="pref_key_feed_auto_refresh" translatable="false">pref_key_feed_auto_refresh</string>
+    <string name="pref_key_feed_auto_refresh_wifi_only" translatable="false">pref_key_feed_auto_refresh_wifi_only</string>
+    <string name="pref_key_feed_keep_items_time" translatable="false">pref_key_feed_keep_items_time</string>
+    <string name="pref_key_feed_refresh_interval" translatable="false">pref_key_feed_refresh_interval</string>
+    <string name="pref_key_feed_start_torrents" translatable="false">pref_key_feed_start_torrents</string>
+    <string name="pref_key_filemanager_last_dir" translatable="false">pref_key_filemanager_last_dir</string>
+    <string name="pref_key_foreground_notify_func_button" translatable="false">pref_key_foreground_notify_func_button</string>
+    <string name="pref_key_ip_filtering_file" translatable="false">pref_key_ip_filtering_file</string>
+    <string name="pref_key_keep_alive" translatable="false">pref_key_keep_alive</string>
+    <string name="pref_key_led_indicator_color_notify" translatable="false">pref_key_led_indicator_color_notify</string>
+    <string name="pref_key_led_indicator_notify" translatable="false">pref_key_led_indicator_notify</string>
+    <string name="pref_key_max_active_downloads" translatable="false">pref_key_max_active_downloads</string>
+    <string name="pref_key_max_active_torrents" translatable="false">pref_key_max_active_torrents</string>
+    <string name="pref_key_max_active_uploads" translatable="false">pref_key_max_active_uploads</string>
+    <string name="pref_key_max_connections" translatable="false">pref_key_max_connections</string>
+    <string name="pref_key_max_connections_per_torrent" translatable="false">pref_key_max_connections_per_torrent</string>
+    <string name="pref_key_max_download_speed" translatable="false">pref_key_max_download_speed</string>
+    <string name="pref_key_max_upload_speed" translatable="false">pref_key_max_upload_speed</string>
+    <string name="pref_key_max_uploads_per_torrent" translatable="false">pref_key_max_uploads_per_torrent</string>
+    <string name="pref_key_move_after_download" translatable="false">pref_key_move_after_download</string>
+    <string name="pref_key_move_after_download_in" translatable="false">pref_key_move_after_download_in</string>
+    <string name="pref_key_notify_sound" translatable="false">pref_key_notify_sound</string>
+    <string name="pref_key_play_sound_notify" translatable="false">pref_key_play_sound_notify</string>
+    <string name="pref_key_port" translatable="false">pref_key_port</string>
+    <string name="pref_key_proxy_address" translatable="false">pref_key_proxy_address</string>
+    <string name="pref_key_proxy_changed" translatable="false">pref_key_proxy_changed</string>
+    <string name="pref_key_proxy_login" translatable="false">pref_key_proxy_login</string>
+    <string name="pref_key_proxy_password" translatable="false">pref_key_proxy_password</string>
+    <string name="pref_key_proxy_peers_too" translatable="false">pref_key_proxy_peers_too</string>
+    <string name="pref_key_proxy_port" translatable="false">pref_key_proxy_port</string>
+    <string name="pref_key_proxy_requires_auth" translatable="false">pref_key_proxy_requires_auth</string>
+    <string name="pref_key_proxy_settings" translatable="false">pref_key_proxy_settings</string>
+    <string name="pref_key_proxy_type" translatable="false">pref_key_proxy_type</string>
+    <string name="pref_key_save_torrent_files" translatable="false">pref_key_save_torrent_files</string>
+    <string name="pref_key_save_torrent_files_in" translatable="false">pref_key_save_torrent_files_in</string>
+    <string name="pref_key_save_torrents_in" translatable="false">pref_key_save_torrents_in</string>
+    <string name="pref_key_scheduling_run_only_once" translatable="false">pref_key_scheduling_run_only_once</string>
+    <string name="pref_key_scheduling_shutdown_time" translatable="false">pref_key_scheduling_shutdown_time</string>
+    <string name="pref_key_scheduling_start_time" translatable="false">pref_key_scheduling_start_time</string>
+    <string name="pref_key_scheduling_switch_wifi" translatable="false">pref_key_scheduling_switch_wifi</string>
+    <string name="pref_key_shutdown_downloads_complete" translatable="false">pref_key_shutdown_downloads_complete</string>
+    <string name="pref_key_sort_torrent_by" translatable="false">pref_key_sort_torrent_by</string>
+    <string name="pref_key_sort_torrent_direction" translatable="false">pref_key_sort_torrent_direction</string>
+    <string name="pref_key_theme" translatable="false">pref_key_theme</string>
+    <string name="pref_key_torrent_finish_notify" translatable="false">pref_key_torrent_finish_notify</string>
+    <string name="pref_key_use_random_port" translatable="false">pref_use_key_random_port</string>
+    <string name="pref_key_vibration_notify" translatable="false">pref_key_vibration_notify</string>
+    <string name="pref_key_watch_dir" translatable="false">pref_key_watch_dir</string>
+    <string name="pref_key_wifi_only" translatable="false">pref_key_wifi_only</string>
+    <string name="pref_led_indicator_color_notify_title">LED indicator color</string>
+    <string name="pref_led_indicator_notify_title">LED indicator</string>
+    <string name="pref_max_active_downloads_title">Maximum active downloads</string>
+    <string name="pref_max_active_torrents_title">Maximum active torrents</string>
+    <string name="pref_max_active_uploads_downloads_dialog_msg">-1 without limit</string>
+    <string name="pref_max_active_uploads_title">Maximum active uploads</string>
+    <string name="pref_max_connections_per_torrent_summary">Minimum number of connections - 2</string>
+    <string name="pref_max_connections_per_torrent_title">Maximum number of connections per torrent</string>
+    <string name="pref_max_connections_summary">Minimum number of connections - 2</string>
+    <string name="pref_max_connections_title">Maximum number of connections</string>
+    <string name="pref_max_download_speed_title">Maximum download speed</string>
+    <string name="pref_max_upload_speed_title">Maximum upload speed</string>
+    <string name="pref_max_uploads_per_torrent_summary">Minimum number of slots - 2</string>
+    <string name="pref_max_uploads_per_torrent_title">Maximum number of upload slots per torrent</string>
+    <string name="pref_move_after_download_in_title">Move after download in</string>
+    <string name="pref_move_after_download_title">Move after download</string>
+    <string name="pref_notification_category">Notification settings</string>
+    <string name="pref_notify_sound_title">Notification sound</string>
+    <string name="pref_play_sound_notify_title">Play sound</string>
+    <string name="pref_port_settings_category">Port settings</string>
+    <string name="pref_port_title">Port</string>
+    <string name="pref_power_management_category">Power management</string>
+    <string name="pref_proxy_address_title">Address</string>
+    <string name="pref_proxy_login_title">Login</string>
+    <string name="pref_proxy_password_title">Password</string>
+    <string name="pref_proxy_peers_too_summary">The proxy will be used for connecting with trackers, peers and web seeds</string>
+    <string name="pref_proxy_peers_too_title">Also use for peer connections</string>
+    <string name="pref_proxy_port_title">Port</string>
+    <string name="pref_proxy_requires_auth_summary">Warning: the password is saved unencrypted</string>
+    <string name="pref_proxy_requires_auth_title">Requires authorization</string>
+    <string name="pref_proxy_settings_title">Proxy settings</string>
+    <string name="pref_proxy_type_http_value" translatable="false">3</string>
+    <string name="pref_proxy_type_none_value" translatable="false">0</string>
+    <string name="pref_proxy_type_socks4_value" translatable="false">1</string>
+    <string name="pref_proxy_type_socks5_value" translatable="false">2</string>
+    <string name="pref_proxy_type_title">Proxy type</string>
+    <string name="pref_save_torrent_files_in_title">Save .torrent files in</string>
+    <string name="pref_save_torrent_files_summary">Save .torrent files after beginning downloading</string>
+    <string name="pref_save_torrent_files_title">Save .torrent files</string>
+    <string name="pref_save_torrents_in_title">Save torrents in</string>
+    <string name="pref_scheduling_run_only_once_title">Run only once</string>
+    <string name="pref_scheduling_switch_wifi_summary">Wi-Fi is automatically enabled when app is launched at the scheduled time and is disabled after app is shutdown at the scheduled time</string>
+    <string name="pref_scheduling_switch_wifi_title">Enable/disable Wi-Fi</string>
+    <string name="pref_shutdown_downloads_complete_summary">If enabled, the app will shutdown when all downloads have completed</string>
+    <string name="pref_shutdown_downloads_complete_title">Shutdown when downloads complete</string>
+    <string name="pref_speed_category">Speed</string>
+    <string name="pref_theme_black_value" translatable="false">2</string>
+    <string name="pref_theme_category">Theme settings</string>
+    <string name="pref_theme_dark_value" translatable="false">1</string>
+    <string name="pref_theme_light_value" translatable="false">0</string>
+    <string name="pref_theme_title">Theme</string>
+    <string name="pref_torrent_finish_notify_summary">Show a notification when a torrent finishes downloading</string>
+    <string name="pref_torrent_finish_notify_title">Torrent finish notification</string>
+    <string name="pref_torrent_queueing_category">Torrent queueing</string>
+    <string name="pref_use_random_port_title">Use random port</string>
+    <string name="pref_vibration_notify_title">Vibration</string>
+    <string name="pref_watch_dir_summary">The torrent files (with .torrent extension) are watched in the specified directory and automatically added. The torrent files are deleted after adding</string>
+    <string name="pref_watch_dir_title">Watch directory</string>
+    <string name="pref_wifi_only_summary">Download and upload only if Wi-Fi is connected</string>
+    <string name="pref_wifi_only_title">Wi-Fi only</string>
+    <string name="proxy_settings_applied">Proxy server settings applied successfully</string>
+    <string name="proxy_settings_apply_after_reboot">Proxy server settings will be applied after restarting the app</string>
+    <string name="refresh">Refresh</string>
+    <string name="replace">Replace</string>
+    <string name="report">Report</string>
+    <string name="restore_torrent_error">unable to restore torrent from previous session</string>
+    <string name="resume_torrent">Resume</string>
+    <string name="save">Save</string>
+    <string name="save_file">Save file</string>
+    <string name="save_torrent_file">Save torrent file</string>
+    <string name="save_torrent_file_successfully">Torrent file saved successfully</string>
+    <string name="search">Search</string>
+    <string formatted="false" name="seeding_torrent_notify_template">%1$s \u2022 \u2191 %2$s/s \u2022 %3$s</string>
+    <string name="select_all">Select all</string>
+    <string name="select_folder_to_save">Select the folder to save</string>
+    <string name="select_or_add_feed_channel">Select or add an RSS/Atom channel</string>
+    <string name="select_or_add_torrent">Select or add a torrent</string>
+    <string name="send_text_to_clipboard">Copy</string>
+    <string name="sequential_download">Sequential download</string>
+    <string name="settings">Settings</string>
+    <string name="settings_apply_after_reboot">Settings will be applied after restarting the app</string>
+    <string name="share_magnet">Share magnet</string>
+    <string name="share_tracker_url">Share URL</string>
+    <string name="share_via">Share via</string>
+    <string name="shutdown">Shutdown</string>
+    <string name="skip_files">Skip files</string>
+    <string name="skip_files_hint">Enter file names separated by \"|\"</string>
+    <string name="sort_by_ascending">By ascending</string>
+    <string name="sort_by_descending">By descending</string>
+    <string name="sorting">Sorting</string>
+    <string name="speed_limit_dialog">Set speed in KiB/s (0 - without limit)</string>
+    <string name="speed_limit_title">Max speed</string>
+    <string name="spinner_all_torrents">All</string>
+    <string name="spinner_downloaded_torrents">Downloaded</string>
+    <string name="spinner_downloading_metadata_torrents">Downloading metadata</string>
+    <string name="spinner_downloading_torrents">Downloading</string>
+    <string name="start_torrent">Start torrent</string>
+    <string formatted="false" name="storage_name_and_size">%1$s (%2$s)</string>
+    <string name="text_copied_to_clipboard">Text copied to clipboard</string>
+    <string name="theme_settings_apply_after_reboot">Theme settings will be applied after restarting the app</string>
+    <string name="torrent_ETA">ETA</string>
+    <string name="torrent_active_time">Active time</string>
+    <string name="torrent_added_date">Added</string>
+    <string name="torrent_added_notify">Torrent added</string>
+    <string name="torrent_availability">Availability</string>
+    <string name="torrent_comment">Comment</string>
+    <string formatted="false" name="torrent_count_notify_template">Downloading: %1$d Total: %2$d</string>
+    <string name="torrent_create_date">Created</string>
+    <string name="torrent_created_in_program">Created in program</string>
+    <string name="torrent_does_not_exists_error">torrent doesn\'t exists</string>
+    <string name="torrent_downloaded">Downloaded</string>
+    <string name="torrent_error_notify_template">Error: %1$s</string>
+    <string name="torrent_error_notify_title">Torrent error</string>
+    <string name="torrent_exist">Torrent already exists. Torrents were merged</string>
+    <string name="torrent_file_chooser_title">Torrent selection</string>
+    <string name="torrent_file_count">File count</string>
+    <string name="torrent_files">Files</string>
+    <string name="torrent_finished_notify">Torrent finished</string>
+    <string name="torrent_hash_sum">Hash sum</string>
+    <string name="torrent_info">Info</string>
+    <string name="torrent_leechers">Leechers</string>
+    <string name="torrent_list_empty">No torrents</string>
+    <string name="torrent_name">Name</string>
+    <string name="torrent_peers">Peers</string>
+    <string formatted="false" name="torrent_peers_template">%1$d (%2$d)</string>
+    <string name="torrent_pieces">Pieces</string>
+    <string formatted="false" name="torrent_pieces_template">%1$d/%2$d (%3$s)</string>
+    <string formatted="false" name="torrent_saved_to">Torrent saved to %1$s</string>
+    <string name="torrent_seeding_time">Seeding time</string>
+    <string name="torrent_seeds">Seeds</string>
+    <string name="torrent_share_ratio">Share ratio</string>
+    <string name="torrent_size">Size</string>
+    <string name="torrent_speed">Speed</string>
+    <string name="torrent_speed_limit">Speed limit</string>
+    <string name="torrent_state">State</string>
+    <string name="torrent_status_checking">Checking</string>
+    <string name="torrent_status_downloading">Downloading</string>
+    <string name="torrent_status_downloading_metadata">Downloading metadata</string>
+    <string name="torrent_status_finished">Finished</string>
+    <string name="torrent_status_paused">Paused</string>
+    <string name="torrent_status_seeding">Seeding</string>
+    <string name="torrent_status_stopped">Stopped</string>
+    <string name="torrent_trackers">Trackers</string>
+    <string name="torrent_uploaded">Uploaded</string>
+    <string name="torrents_move_content">Please wait…</string>
+    <string name="torrents_move_inbox_failed">Failed:</string>
+    <string name="torrents_move_inbox_successfully">Successfully:</string>
+    <string formatted="false" name="torrents_move_notify_title">Moving torrents (%1$d/%2$d)</string>
+    <string formatted="false" name="torrents_moved_content">Successfully: %1$d; Failed: %2$d</string>
+    <string name="torrents_moved_title">Torrents moved</string>
+    <string formatted="false" name="tracker_state_error">Error: %1$s</string>
+    <string name="tracker_state_not_contacted">Not contacted yet</string>
+    <string name="tracker_state_not_working">Not working</string>
+    <string name="tracker_state_updating">Updating…</string>
+    <string name="tracker_state_working">Working</string>
+    <string name="tracker_urls">Tracker URLs</string>
+    <string name="upload_speed">Upload</string>
+    <string name="upload_torrent_into">Upload into</string>
+    <string name="warning">Warning</string>
+    <string name="web_seed_urls">Web seed URLs</string>
+    <string name="yes">Yes</string>
+    <style name="AppTheme" parent="BaseTheme">
+    </style>
+    <style name="AppTheme.Black" parent="BaseTheme.Black">
+    </style>
+    <style name="AppTheme.Dark" parent="BaseTheme.Dark">
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorPrimaryInverse">@color/text_primary_inverse</item>
+        <item name="android:textColorSecondaryInverse">@color/text_secondary_inverse</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="smallText">@style/TextAppearance.AppCompat.Small</item>
+        <item name="background">@color/background</item>
+        <item name="backgroundBlank">@color/background_blank</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/action_mode</item>
+        <item name="actionModeBackground">@color/action_mode</item> 
+        <item name="android:windowBackground">@color/background</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:alertDialogTheme">@style/BaseTheme.Dialog</item>
+        <item name="alertDialogTheme">@style/BaseTheme.Dialog</item> 
+        <item name="divider">@drawable/table_mode_divider</item>
+        <item name="defaultRectRipple">@drawable/default_rect_ripple</item>
+        <item name="defaultRoundRipple">@drawable/default_round_ripple</item>
+        <item name="defaultSelectRect">@drawable/default_select_rect</item>
+        <item name="curOpenTorrentIndicator">@color/cur_open_torrent_indicator</item>
+        <item name="transparentRoundRipple">@drawable/transparent_round_ripple</item>
+    </style>
+    <style name="BaseTheme.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="android:background">@color/action_mode</item>
+        <item name="android:titleTextStyle">@color/text_primary_inverse</item>
+    </style>
+    <style name="BaseTheme.BaseThemeSettings" parent="@style/PreferenceFixTheme.Light.NoActionBar">
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="preferenceCategory_marginBottom">0dp</item>
+        <item name="android:layout">@layout/fragment_custom_preference</item>
+        <item name="divider">@drawable/table_mode_divider</item>
+    </style>
+    <style name="BaseTheme.BaseThemeSettings.Black" parent="BaseTheme.BaseThemeSettings.Dark">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+    <style name="BaseTheme.BaseThemeSettings.Dark" parent="@style/PreferenceFixTheme.NoActionBar">
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="preferenceCategory_marginBottom">0dp</item>
+        <item name="android:layout">@layout/fragment_custom_preference</item>
+        <item name="divider">@drawable/table_mode_divider_dark</item>
+    </style>
+    <style name="BaseTheme.Black" parent="BaseTheme.Dark">
+        <item name="background">@color/black</item>
+        <item name="backgroundBlank">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="defaultRectRipple">@drawable/default_rect_ripple_black</item>
+        <item name="defaultRoundRipple">@drawable/default_round_ripple_black</item>
+        <item name="defaultSelectRect">@drawable/default_select_rect_black</item>
+        <item name="transparentRoundRipple">@drawable/transparent_round_ripple_black</item>
+    </style>
+    <style name="BaseTheme.Dark" parent="BaseTheme">
+        <item name="android:textColorPrimary">@color/text_primary_inverse</item>
+        <item name="android:textColorSecondary">@color/text_secondary_inverse</item>
+        <item name="android:textColorPrimaryInverse">@color/text_primary</item>
+        <item name="android:textColorSecondaryInverse">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_secondary_inverse</item>
+        <item name="smallText">@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item name="background">@color/background_dark</item>
+        <item name="backgroundBlank">@color/background_blank_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu_Dark</item>
+        <item name="popupMenuStyle">@style/PopupMenu_Dark</item>
+        <item name="android:alertDialogTheme">@style/BaseTheme.Dialog.Dark</item>
+        <item name="alertDialogTheme">@style/BaseTheme.Dialog.Dark</item>
+        <item name="divider">@drawable/table_mode_divider_dark</item>
+        <item name="defaultRectRipple">@drawable/default_rect_ripple_dark</item>
+        <item name="defaultRoundRipple">@drawable/default_round_ripple_dark</item>
+        <item name="defaultSelectRect">@drawable/default_select_rect_dark</item>
+        <item name="curOpenTorrentIndicator">@color/cur_open_torrent_indicator_dark</item>
+        <item name="transparentRoundRipple">@drawable/transparent_round_ripple_dark</item>
+    </style>
+    <style name="BaseTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:bottomBright">@color/background_dialog</item>
+        <item name="android:bottomDark">@color/background_dialog</item>
+        <item name="android:bottomMedium">@color/background_dialog</item>
+        <item name="android:centerBright">@color/background_dialog</item>
+        <item name="android:centerDark">@color/background_dialog</item>
+        <item name="android:centerMedium">@color/background_dialog</item>
+        <item name="android:fullBright">@color/background_dialog</item>
+        <item name="android:fullDark">@color/background_dialog</item>
+        <item name="android:topBright">@color/background_dialog</item>
+        <item name="android:topDark">@color/background_dialog</item>
+    </style>
+    <style name="BaseTheme.Dialog.Dark" parent="Theme.AppCompat.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:bottomBright">@color/background_dialog_dark</item>
+        <item name="android:bottomDark">@color/background_dialog_dark</item>
+        <item name="android:bottomMedium">@color/background_dialog_dark</item>
+        <item name="android:centerBright">@color/background_dialog_dark</item>
+        <item name="android:centerDark">@color/background_dialog_dark</item>
+        <item name="android:centerMedium">@color/background_dialog_dark</item>
+        <item name="android:fullBright">@color/background_dialog_dark</item>
+        <item name="android:fullDark">@color/background_dialog_dark</item>
+        <item name="android:topBright">@color/background_dialog_dark</item>
+        <item name="android:topDark">@color/background_dialog_dark</item>
+    </style>
+    <style name="BaseTheme.EmptyView" parent="@style/TextAppearance.AppCompat.Display1">
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="BaseTheme.HeaderText" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="BaseTheme.Settings" parent="BaseTheme.BaseThemeSettings">
+    </style>
+    <style name="BaseTheme.Settings.Black" parent="BaseTheme.BaseThemeSettings.Black">
+    </style>
+    <style name="BaseTheme.Settings.Dark" parent="BaseTheme.BaseThemeSettings.Dark">
+    </style>
+    <style name="BaseTheme.Toolbar.Spinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="BaseTheme.TorrentInfoText" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+    <style name="PopupMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:popupBackground">@drawable/popup_menu_light</item>
+    </style>
+    <style name="PopupMenu_Dark" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:popupBackground">@drawable/popup_menu_dark</item>
+    </style>
+    <style name="Theme.AppCompat.Translucent" parent="BaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Theme.AppCompat.Translucent.Black" parent="Theme.AppCompat.Translucent.Dark">
+    </style>
+    <style name="Theme.AppCompat.Translucent.Dark" parent="BaseTheme.Dark">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Widget.MorphButton" parent="@android:style/Widget.Holo.Button.Small">
+        <item name="vc_startDrawable">@null</item>
+        <item name="vc_endDrawable">@null</item>
+        <item name="vc_autoStartAnimation">false</item>
+    </style>
+    <style name="boldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <declare-styleable name="AnimatedVectorDrawable">
+        
+        <attr name="android:drawable"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatedVectorDrawableTarget">
+        
+        <attr name="android:name"/>
+        
+        <attr name="android:animation"/>
+    </declare-styleable>
+    <declare-styleable name="Animator">
+        
+        <attr name="android:interpolator"/>
+        
+        <attr name="android:duration"/>
+        
+        <attr name="android:startOffset"/>
+        
+        <attr name="android:repeatCount"/>
+        
+        <attr name="android:repeatMode"/>
+        
+        <attr name="android:valueFrom"/>
+        
+        <attr name="android:valueTo"/>
+        
+        <attr name="vc_valueType">
+            
+            <enum name="floatType" value="0"/>
+            
+            <enum name="intType" value="1"/>
+            
+            <enum name="pathType" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="LightColorView">
+        <attr format="color" name="lightColor"/>
+    </declare-styleable>
+    <declare-styleable name="MorphButton">
+        <attr format="reference" name="vc_startDrawable"/>
+        <attr format="reference" name="vc_endDrawable"/>
+        <attr name="android:scaleType"/>
+        <attr format="boolean" name="vc_autoStartAnimation"/>
+        
+        <attr format="color" name="vc_backgroundTint"/>
+
+        
+        <attr name="vc_backgroundTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr format="color" name="vc_foregroundTint"/>
+
+        
+        <attr name="vc_foregroundTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PropertyAnimator">
+        
+        <attr name="android:propertyName"/>
+        
+        <attr name="vc_pathData"/>
+    </declare-styleable>
+    <declare-styleable name="Theme">
+        <attr format="reference" name="morphButtonStyle"/>
+    </declare-styleable>
+    <declare-styleable name="VectorDrawable">
+        
+        <attr name="vc_tint"/>
+        
+        <attr name="vc_tintMode"/>
+        
+        <attr name="vc_autoMirrored"/>
+        
+        <attr name="android:width"/>
+        
+        <attr name="android:height"/>
+        
+        <attr format="float" name="vc_viewportWidth"/>
+        
+        <attr format="float" name="vc_viewportHeight"/>
+        
+        <attr name="android:name"/>
+        
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="VectorDrawableClipPath">
+        
+        <attr name="android:name"/>
+        
+        <attr name="vc_pathData"/>
+    </declare-styleable>
+    <declare-styleable name="VectorDrawableGroup">
+        
+        <attr name="android:name"/>
+        
+        <attr name="android:rotation"/>
+        
+        <attr name="android:pivotX"/>
+        
+        <attr name="android:pivotY"/>
+        
+        <attr format="float" name="vc_translateX"/>
+        
+        <attr format="float" name="vc_translateY"/>
+        
+        <attr name="android:scaleX"/>
+        
+        <attr name="android:scaleY"/>
+    </declare-styleable>
+    <declare-styleable name="VectorDrawablePath">
+        
+        <attr name="android:name"/>
+        
+        <attr format="float" name="vc_strokeWidth"/>
+        
+        <attr format="color" name="vc_strokeColor"/>
+        
+        <attr format="float" name="vc_strokeAlpha"/>
+        
+        <attr format="color" name="vc_fillColor"/>
+        
+        <attr format="float" name="vc_fillAlpha"/>
+        
+        <attr name="vc_pathData"/>
+        
+        <attr format="float" name="vc_trimPathStart"/>
+        
+        <attr format="float" name="vc_trimPathEnd"/>
+        
+        <attr format="float" name="vc_trimPathOffset"/>
+        
+        <attr format="enum" name="vc_strokeLineCap">
+            <enum name="butt" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+        
+        <attr format="enum" name="vc_strokeLineJoin">
+            <enum name="miter" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="bevel" value="2"/>
+        </attr>
+        
+        <attr format="float" name="vc_strokeMiterLimit"/>
+    </declare-styleable>
+    <declare-styleable name="dynamic_style_attrs">
+        <attr format="reference" name="smallText"/>
+        <attr format="reference" name="background"/>
+        <attr format="reference" name="backgroundBlank"/>
+        <attr format="reference" name="popupTheme"/>
+        <attr format="reference" name="divider"/>
+        <attr format="reference" name="defaultRectRipple"/>
+        <attr format="reference" name="defaultRoundRipple"/>
+        <attr format="reference" name="defaultSelectRect"/>
+        <attr format="reference" name="curOpenTorrentIndicator"/>
+        <attr format="reference" name="transparentRoundRipple"/>
+    </declare-styleable>
+</resources>

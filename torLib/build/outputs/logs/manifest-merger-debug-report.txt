@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+	package
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:1-251:12
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.INTERNET
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:11:5-88
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:11:22-85
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.QUICKBOOT_POWERON
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.VIBRATE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:16:22-63
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:17:5-88
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:17:22-85
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:18:5-77
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:18:22-74
+uses-feature#android.hardware.touchscreen
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:21:9-52
+uses-feature#android.software.leanback
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:23:5-24:36
+	android:required
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:23:19-59
+application
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:26:5-250:19
+activity#org.proninyaroslav.libretorrent.MainActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:29:9-32:20
+	android:theme
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:30:19-62
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:29:19-47
+activity#org.proninyaroslav.libretorrent.AddTorrentActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:34:9-108:20
+	android:label
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:35:13-45
+	android:windowSoftInputMode
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:37:13-54
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:36:13-47
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:38:13-41:29
+action#android.intent.action.SEND
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:40:27-73
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/x-bittorrent+data:scheme:file
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:42:13-47:29
+action#android.intent.action.VIEW
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.BROWSABLE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:45:17-78
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:45:27-75
+data
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:46:17-108
+	android:host
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:46:23-39
+	android:scheme
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:46:84-105
+	android:pathPattern
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:52:40-74
+	android:mimeType
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:46:40-83
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:124:23-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.torrent+data:scheme:file
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:48:13-53:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/x-bittorrent+data:scheme:content
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:54:13-59:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.torrent+data:scheme:content
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:60:13-65:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.torrent+data:scheme:http
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:66:13-71:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.torrent+data:scheme:https
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:72:13-77:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.torrent+data:scheme:http
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:78:13-83:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.torrent+data:scheme:https
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:84:13-89:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/x-bittorrent+data:scheme:http
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:90:13-95:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/x-bittorrent+data:scheme:https
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:96:13-101:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:magnet
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:102:13-107:29
+activity#org.proninyaroslav.libretorrent.dialogs.filemanager.FileManagerDialog
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:110:9-75
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:110:19-72
+activity#org.proninyaroslav.libretorrent.DetailTorrentActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:112:9-114:53
+	android:label
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:113:13-45
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:114:13-50
+activity#org.proninyaroslav.libretorrent.SendTextToClipboard
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:116:9-127:20
+	android:label
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:117:13-59
+	android:icon
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:118:13-66
+	android:theme
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:119:13-59
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:116:19-54
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.ALTERNATIVE+category:name:android.intent.category.DEFAULT+data:mimeType:text/*
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:120:13-126:29
+category#android.intent.category.ALTERNATIVE
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:123:17-80
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:123:27-77
+activity#org.proninyaroslav.libretorrent.RequestPermissions
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:129:9-131:66
+	android:theme
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:131:13-63
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:130:13-47
+activity#org.proninyaroslav.libretorrent.settings.SettingsActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:133:9-140:20
+	android:label
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:134:13-45
+	android:theme
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:135:13-54
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:133:19-60
+intent-filter#action:name:android.intent.action.APPLICATION_PREFERENCES+category:name:android.intent.category.DEFAULT
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:136:13-139:29
+action#android.intent.action.APPLICATION_PREFERENCES
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:137:17-88
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:137:25-85
+activity#org.proninyaroslav.libretorrent.settings.BasePreferenceActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:142:9-144:57
+	android:theme
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:144:13-54
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:143:13-60
+activity#org.proninyaroslav.libretorrent.ErrorReportActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:146:9-152:49
+	android:process
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:149:13-44
+	android:excludeFromRecents
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:151:13-46
+	android:launchMode
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:150:13-48
+	android:theme
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:148:13-44
+	android:finishOnTaskLaunch
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:152:13-46
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:147:13-79
+activity#org.proninyaroslav.libretorrent.FeedActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:154:9-198:20
+	android:label
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:155:13-45
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:156:13-41
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.rss+data:pathPattern:.*\\.xml+data:scheme:http
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:162:13-169:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/atom+xml+data:mimeType:application/rss+xml+data:mimeType:application/xml+data:mimeType:text/xml+data:scheme:http
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:170:13-179:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.rss+data:pathPattern:.*\\.xml+data:scheme:https
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:180:13-187:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/atom+xml+data:mimeType:application/rss+xml+data:mimeType:application/xml+data:mimeType:text/xml+data:scheme:https
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:188:13-197:29
+activity#org.proninyaroslav.libretorrent.FeedItemsActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:200:9-202:49
+	android:label
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:201:13-45
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:202:13-46
+activity#org.proninyaroslav.libretorrent.CreateTorrentActivity
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:204:9-206:53
+	android:label
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:205:13-45
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:206:13-50
+service#org.proninyaroslav.libretorrent.services.TorrentTaskService
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:208:9-210:44
+	android:stopWithTask
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:210:13-41
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:209:13-56
+service#org.proninyaroslav.libretorrent.services.FeedFetcherService
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:212:9-214:72
+	android:permission
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:214:13-69
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:213:13-56
+service#org.proninyaroslav.libretorrent.services.FeedDownloaderService
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:216:9-218:72
+	android:permission
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:218:13-69
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:217:13-59
+receiver#org.proninyaroslav.libretorrent.receivers.NotificationReceiver
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:220:9-227:20
+	android:exported
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:222:13-37
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:221:13-59
+intent-filter#action:name:org.proninyaroslav.libretorrent.receivers.NotificationReceiver.NOTIFY_ACTION_ADD_TORRENT+action:name:org.proninyaroslav.libretorrent.receivers.NotificationReceiver.NOTIFY_ACTION_SHUTDOWN_APP
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:223:13-226:29
+action#org.proninyaroslav.libretorrent.receivers.NotificationReceiver.NOTIFY_ACTION_SHUTDOWN_APP
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:224:17-132
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:224:25-129
+action#org.proninyaroslav.libretorrent.receivers.NotificationReceiver.NOTIFY_ACTION_ADD_TORRENT
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:225:17-131
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:225:25-128
+receiver#org.proninyaroslav.libretorrent.receivers.BootReceiver
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:229:9-236:20
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:230:13-51
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:231:13-235:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:232:17-79
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:232:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:233:17-82
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:233:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:234:17-82
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:234:25-79
+receiver#org.proninyaroslav.libretorrent.receivers.SchedulerReceiver
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:238:9-239:59
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:239:13-56
+provider#android.support.v4.content.FileProvider
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:241:9-249:20
+	android:grantUriPermissions
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:245:13-47
+	android:authorities
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:243:13-60
+	android:exported
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:244:13-37
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:242:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:246:13-248:57
+	android:resource
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:248:17-55
+	android:name
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml:247:17-67
+uses-sdk
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+		ADDED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
+		INJECTED from E:\project\MyApplication\torLib\src\main\AndroidManifest.xml
